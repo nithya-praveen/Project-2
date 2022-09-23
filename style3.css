@@ -1,0 +1,109 @@
+.container
+{
+    height: 532px;
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:50px;
+}
+.item
+{
+    position: relative;
+    left: 500px;
+    top: 10px;
+    font-size: large;
+}
+.item1
+{
+    position: relative;
+    left: 300px;
+    bottom: 5px;
+}
+.item2
+{   
+    width: 370px;
+    height:350px;
+    border: 1px solid #EDEDED;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 600px;
+    box-sizing: border-box;
+    position: relative;
+    top: 70px;
+    right: 460px;
+    box-shadow: 0px 0px 8px rgb(201, 200, 200);
+}
+.text
+{    
+    font-size: larger;
+    color: #00A5EC;
+    font-weight: bold;
+    margin-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.Add-New-Task
+{
+    width: 450px;
+    height: 200px;
+    border: 1px solid rgb(235, 231, 231);
+    border-radius: 20px;
+    background-color: white;
+    font-size: x-large;
+    padding: 10px 0px 0px 15px;
+    font-weight: bold;
+    position: fixed;
+    bottom:210px;
+    left: 480px;
+    z-index: +1;
+}
+.fa-xmark
+{
+    position: absolute;
+    left: 430px;
+}
+.input
+{
+    width:430px;
+    height:40px;
+    border-radius: 4px;
+    background-color: #F7F7F7;
+    border: none;
+}
+button
+{
+    width: 140px;
+    height: 40px;
+    background: #00A5EC 0% 0% no-repeat padding-box;    
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size:large ;
+    position: absolute;
+    left: 300px;
+}
+.popup
+{
+    opacity: 1; 
+    position: fixed; 
+    z-index: 1; 
+    transform: translate(-50%,-100%);
+    left: 50%;
+    top: 50%;
+    width: 100%; 
+    height: 100%; 
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    background-color: rgba(37, 37, 37, 0.61); 
+    align-items: center; 
+}
